@@ -7,7 +7,6 @@ public class MainEncapsulation {
 
         Vehicle car = new Vehicle("Blue", "Golf", 3, false);
 
-
         //public
         car.numberOfSeats = 7;
 

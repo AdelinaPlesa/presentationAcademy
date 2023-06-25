@@ -8,11 +8,9 @@ public class MainInheritance {
         rose.printFlower();
 
         Plant plant = new Cucumber(true, "Yellow", 10);
-
         plant.grow();
 
         Cucumber cucumber = new Cucumber(false, "Grey", 2);
-
         cucumber.printCucumber();
     }
 }

@@ -14,11 +14,21 @@ public class MainAbstraction {
         dumbo.animalEats();
     }
 
+    public static void kitty(){
+        Cat kitty = new Cat();
+
+        kitty.fly();
+        kitty.animalEats();
+    }
+
     public static void main(String args[]) {
         //abstract class example
         azorel();
 
         //interface example
         dumbo();
+
+        //abstract class and interface example
+        kitty();
     }
 }
