@@ -10,6 +10,11 @@ public class Plant {
         this.size = 0;
     }
 
+    Plant(String colorParam){
+        this.color = colorParam;
+        this.size = 0;
+    }
+
     Plant(String colorParam, int sizeParam){
         this.color = colorParam;
         this.size = sizeParam;

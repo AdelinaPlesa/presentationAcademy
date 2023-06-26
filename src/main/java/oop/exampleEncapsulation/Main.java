@@ -7,17 +7,13 @@ public class Main {
         Vehicle car = new Vehicle("Blue", "Golf", 3, false);
 
         //public
-        car.numberOfSeats = 2;
-
-        //protected
+//        car.numberOfSeats = 2;
+//        //protected
 //        car.model = "Polo";
-
-        //default
+//        //default
 //        car.suv = true;
-
-        //private
+//        //private
 //        car.color = "Green";
-
         System.out.println("Number of seats: " + car.numberOfSeats);
     }
 }

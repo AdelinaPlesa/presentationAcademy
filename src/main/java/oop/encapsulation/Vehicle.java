@@ -2,11 +2,8 @@ package oop.encapsulation;
 
 public class Vehicle {
     private String color;
-
     protected String model;
-
     public int numberOfSeats;
-
     boolean suv;
 
     public Vehicle(String color, String model, int numberOfSeats, boolean suv) {
@@ -24,15 +21,12 @@ public class Vehicle {
     private void methodPrivate() {
         System.out.println("This method is private");
     }
-
     protected void methodProtected() {
         System.out.println("This method is protected");
     }
-
     public void methodPublic() {
         System.out.println("This method is public");
     }
-
     void methodDefault() {
         System.out.println("This method is default");
     }

@@ -6,16 +6,12 @@ public class MainEncapsulation {
 //        Vehicle bike = new Vehicle("Red", 4);
 
         Vehicle car = new Vehicle("Blue", "Golf", 3, false);
-
         //public
         car.numberOfSeats = 7;
-
         //protected
         car.model = "Polo";
-
         //default
         car.suv = true;
-
         //private
 //        car.color = "Green";
 

@@ -1,5 +1,9 @@
 package oop.inheritance;
 
+import jdk.jfr.FlightRecorder;
+
+import java.util.concurrent.Flow;
+
 public class Flower extends Plant{
 
     String petalColor;
@@ -7,6 +11,10 @@ public class Flower extends Plant{
     Flower(){
         super();
         this.petalColor = "";
+    }
+
+    Flower(String colorParam){
+        super(colorParam);
     }
 
     Flower(String petalColorParam, String colorParam, int sizeParam){

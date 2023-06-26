@@ -16,7 +16,7 @@ public class Collections {
 
         //print each object from list
         for (String object : listOfObjects) {
-            System.out.println(object);
+            System.out.println("object: " + object);
         }
 
         //add an object on a specific position
@@ -35,7 +35,7 @@ public class Collections {
         System.out.println(listOfObjects);
 
         //print size of list
-        listOfObjects.size();
+        System.out.println(listOfObjects.size());
 
         //clear list
         listOfObjects.clear();
@@ -67,10 +67,8 @@ public class Collections {
         }
 
         //print size of set
-        numbers.size();
-
+        System.out.println(numbers.size());
     }
-
     public static void mapMethod() {
         Map<String, Integer> person = new HashMap<String, Integer>();
 
@@ -108,8 +106,8 @@ public class Collections {
     }
 
     public static void main(String[] args) {
-        arrayListMethod();
-        setMethod();
+//        arrayListMethod();
+//        setMethod();
         mapMethod();
     }
 
